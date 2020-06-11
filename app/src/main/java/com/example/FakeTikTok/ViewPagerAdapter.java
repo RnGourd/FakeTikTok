@@ -23,7 +23,7 @@ class VideoInfo {
     public String nickname;//上传者昵称
     public String description;//视频描述
     public String likecount;//点赞数
-    public String avatar;//头像
+    public String avatar;//封面
 
     public VideoInfo(String feedurl, String nickname, String description, String likecount, String avatar){
         this.feedurl = feedurl;
