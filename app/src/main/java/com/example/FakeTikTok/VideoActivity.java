@@ -17,15 +17,10 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class VideoActivity extends AppCompatActivity {
-    private Button buttonPlay;
-    private Button buttonPause;
     public VideoView videoView;
     public ImageView imageView; //加了点怪浪怪浪的东西
-    private SeekBar seekBar;
     private int sec;
     private boolean isStart;
-    private int orientation;
-    private boolean paused=false;
     public static VideoActivity vactivity;
     private GestureDetector gestureDetector;
 
